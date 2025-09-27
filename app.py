@@ -1,10 +1,10 @@
-import uvicorn
 from fastapi import FastAPI
 from api.routes import router
 from config import settings
 
-app = FastAPI(title="Transcription Pipeline")
+app = FastAPI(title="Transcription Pipeline", version="0.1.0")
 app.include_router(router, prefix="/api")
 
-if __name__ == '__main__':
-    uvicorn.run('app:app', host=settings.APP_HOST, port=settings.APP_PORT, reload=True)
+@app.get("/")
+async def root():
+    return {"message": "Transcription Pipeline. Visit /docs to get started."}

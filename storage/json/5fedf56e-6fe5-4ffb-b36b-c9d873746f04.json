@@ -1,0 +1,913 @@
+{
+  "file_id": "5fedf56e-6fe5-4ffb-b36b-c9d873746f04",
+  "filename": "test.mp4",
+  "raw": {
+    "text": "Hello all my name is Krishnai and welcome to my Udush channel. So guys I am super excited to announce our new Udemy course that is nothing but building AI agents and agentic AI systems with the help of Microsoft AutoJane. Now if you don't know Microsoft AutoJane is also one of the most popular framework that will be specifically used to develop agentic AI applications. Now in the world of error wherein everybody is focusing on building AI agent and agentic AI system it is important that we have knowledge with respect to multiple frameworks and that is the reason me and my entire team are working really really hard to come up with some amazing courses in an affordable way wherein we cover all this specific frameworks in much more in depth. I have already uploaded one course with respect to land graph. Now we are going to cover up with Microsoft AutoJane and the feedback from all this specific courses has been quite amazing and people are really demanding for more and more different kind of use cases and different kind of implementation where we can develop agentic AI system such that we take it into the production level. So anybody who is specifically interested into getting into genitive AI agentic AI then this is the course definitely for you. In this video I will be talking more about this particular course is what all things you can you will be learning what are the prerequisites that you actually require in order to learn this and many more things. So first of all here in this particular course this has been collaborated with Mike Agarwal. I hope everybody knows about Mike Agarwal. He is the part of my team where we are focusing on understanding what all things people definitely require to get into this specific industry. So here to go ahead with right now this particular course, fees is only 399 rupees and understand if you just need to use a coupon which is called as agentic 01. As I said the course price is very, very minimal less than a star buck coffee and this entire course will be available for lifetime. You also have 30 days of refund policy so let's say you buy this particular course, try out the videos and if you don't like it within 30 days you can also get the refund. What is the main aim in this particular course is to build powerful AI agents, automate tasks and create advanced agentic AI system. Since Microsoft Autogen is from Microsoft itself so definitely you can understand what will be the importance of this particular framework right because right now there are some less number of companies which are rarely really competitive in this market with respect to developing LLA models, frameworks and many more things. Microsoft have definitely come up with this something. Autogen called as Autogen for a specific purpose. So in this course you'll learn all about what are agents, how to create autonomous agents, how to interact with the Microsoft Autogen framework, setup or configure Autogen to build AI systems, design and implement custom agents and chat boards will be talking about tasks like coding, reasoning and decision making, build and deploy rail world multi agents workflow that automates complex end to end task right. So here we are only not focusing on building, we also focusing on doing the deployment right. So overall this course will be having somewhere on 32.5 hours of course and as we go ahead there are some more projects that needs to be included. So first of all we go ahead with Python, Python is the prerequisites that you definitely require then you have Python take then we start with entire Autogen and if you keep on expanding their projects, their use cases, their good things, their techniques like how to probably add human in the human in the loop, feedback, how to probably go ahead and create a single agent, how to go ahead and create a multi agents, how to make agent communicate with the other agent, you know how to make sure to do this collaboration of multi agent in Autogen all this specific thing is done. Not only that we also talk about performance metrics we talk about building and conferring configuring the Autogen agent itself, we have also shown you how to go ahead and use the Autogen Studio. So they are a whole they are whole set of topics that has been discussed with respect to this and super super excited to launch this particular course. Now there is one more announcement that whoever is from my Christianite.in batch in the life class as I hope you have taken this agent take AI right. So if you are from this specific batch or agent one point oh batch don't worry you don't need to probably take this particular course because this course will be provided completely for free or every one out there you know and this is the pattern that we follow whoever is the part of our life batches we usually provide them free courses from the UDP so that they get the life access. Along with this I would suggest go ahead and try it out each and everything over here right. The prerequisite for this is that you need to have some amount of Python programming language knowledge even though if you don't have I have already provided you should know how to write modular coding you should have some understanding of LLM model generated way I models and all or less than all the things you know we have explained things in a much more better way each and every topic that you will be specifically seeing over here will be grips and detail the kind of materials resources that we have specifically used and everything is available for lifetime I had just a price of 39.9 this offer just stays for two days so go ahead and utilize this opportunity and yes this was it for my side I hope you like this particular video I'll see you all in the next video thank you have a great day bye bye take care.",
+    "segments": [
+      {
+        "id": 0,
+        "start": 0.0,
+        "end": 4.32,
+        "text": "Hello all my name is Krishnai and welcome to my Udush channel."
+      },
+      {
+        "id": 1,
+        "start": 4.32,
+        "end": 10.24,
+        "text": "So guys I am super excited to announce our new Udemy course that is nothing but building AI"
+      },
+      {
+        "id": 2,
+        "start": 10.24,
+        "end": 15.6,
+        "text": "agents and agentic AI systems with the help of Microsoft AutoJane."
+      },
+      {
+        "id": 3,
+        "start": 15.6,
+        "end": 20.64,
+        "text": "Now if you don't know Microsoft AutoJane is also one of the most popular framework that"
+      },
+      {
+        "id": 4,
+        "start": 20.64,
+        "end": 25.080000000000002,
+        "text": "will be specifically used to develop agentic AI applications."
+      },
+      {
+        "id": 5,
+        "start": 25.08,
+        "end": 29.64,
+        "text": "Now in the world of error wherein everybody is focusing on building AI agent and agentic"
+      },
+      {
+        "id": 6,
+        "start": 29.64,
+        "end": 34.44,
+        "text": "AI system it is important that we have knowledge with respect to multiple frameworks and"
+      },
+      {
+        "id": 7,
+        "start": 34.44,
+        "end": 39.64,
+        "text": "that is the reason me and my entire team are working really really hard to come up with some"
+      },
+      {
+        "id": 8,
+        "start": 39.64,
+        "end": 45.16,
+        "text": "amazing courses in an affordable way wherein we cover all this specific frameworks in much more"
+      },
+      {
+        "id": 9,
+        "start": 45.16,
+        "end": 46.16,
+        "text": "in depth."
+      },
+      {
+        "id": 10,
+        "start": 46.16,
+        "end": 49.4,
+        "text": "I have already uploaded one course with respect to land graph."
+      },
+      {
+        "id": 11,
+        "start": 49.4,
+        "end": 55.4,
+        "text": "Now we are going to cover up with Microsoft AutoJane and the feedback from all this specific"
+      },
+      {
+        "id": 12,
+        "start": 55.4,
+        "end": 60.6,
+        "text": "courses has been quite amazing and people are really demanding for more and more different"
+      },
+      {
+        "id": 13,
+        "start": 60.6,
+        "end": 66.44,
+        "text": "kind of use cases and different kind of implementation where we can develop agentic AI"
+      },
+      {
+        "id": 14,
+        "start": 66.44,
+        "end": 69.56,
+        "text": "system such that we take it into the production level."
+      },
+      {
+        "id": 15,
+        "start": 69.56,
+        "end": 74.03999999999999,
+        "text": "So anybody who is specifically interested into getting into genitive AI agentic AI then"
+      },
+      {
+        "id": 16,
+        "start": 74.03999999999999,
+        "end": 76.75999999999999,
+        "text": "this is the course definitely for you."
+      },
+      {
+        "id": 17,
+        "start": 76.76,
+        "end": 80.12,
+        "text": "In this video I will be talking more about this particular course is what all things you can"
+      },
+      {
+        "id": 18,
+        "start": 80.12,
+        "end": 84.2,
+        "text": "you will be learning what are the prerequisites that you actually require in order to learn"
+      },
+      {
+        "id": 19,
+        "start": 84.2,
+        "end": 86.2,
+        "text": "this and many more things."
+      },
+      {
+        "id": 20,
+        "start": 86.2,
+        "end": 90.92,
+        "text": "So first of all here in this particular course this has been collaborated with Mike Agarwal."
+      },
+      {
+        "id": 21,
+        "start": 90.92,
+        "end": 93.80000000000001,
+        "text": "I hope everybody knows about Mike Agarwal."
+      },
+      {
+        "id": 22,
+        "start": 93.80000000000001,
+        "end": 98.84,
+        "text": "He is the part of my team where we are focusing on understanding what all things people"
+      },
+      {
+        "id": 23,
+        "start": 98.84,
+        "end": 102.92,
+        "text": "definitely require to get into this specific industry."
+      },
+      {
+        "id": 24,
+        "start": 102.92,
+        "end": 109.8,
+        "text": "So here to go ahead with right now this particular course, fees is only 399 rupees and understand"
+      },
+      {
+        "id": 25,
+        "start": 109.8,
+        "end": 113.96000000000001,
+        "text": "if you just need to use a coupon which is called as agentic 01."
+      },
+      {
+        "id": 26,
+        "start": 113.96000000000001,
+        "end": 121.0,
+        "text": "As I said the course price is very, very minimal less than a star buck coffee and this entire"
+      },
+      {
+        "id": 27,
+        "start": 121.0,
+        "end": 123.76,
+        "text": "course will be available for lifetime."
+      },
+      {
+        "id": 28,
+        "start": 123.76,
+        "end": 127.72,
+        "text": "You also have 30 days of refund policy so let's say you buy this particular course,"
+      },
+      {
+        "id": 29,
+        "start": 127.72,
+        "end": 132.8,
+        "text": "try out the videos and if you don't like it within 30 days you can also get the refund."
+      },
+      {
+        "id": 30,
+        "start": 132.8,
+        "end": 136.56,
+        "text": "What is the main aim in this particular course is to build powerful AI agents,"
+      },
+      {
+        "id": 31,
+        "start": 136.56,
+        "end": 140.16000000000003,
+        "text": "automate tasks and create advanced agentic AI system."
+      },
+      {
+        "id": 32,
+        "start": 140.16000000000003,
+        "end": 146.24,
+        "text": "Since Microsoft Autogen is from Microsoft itself so definitely you can understand what will"
+      },
+      {
+        "id": 33,
+        "start": 146.24,
+        "end": 151.36,
+        "text": "be the importance of this particular framework right because right now there are some less"
+      },
+      {
+        "id": 34,
+        "start": 151.36,
+        "end": 155.52,
+        "text": "number of companies which are rarely really competitive in this market with respect to developing"
+      },
+      {
+        "id": 35,
+        "start": 155.52,
+        "end": 158.60000000000002,
+        "text": "LLA models, frameworks and many more things."
+      },
+      {
+        "id": 36,
+        "start": 158.68,
+        "end": 160.92,
+        "text": "Microsoft have definitely come up with this something."
+      },
+      {
+        "id": 37,
+        "start": 160.92,
+        "end": 164.51999999999998,
+        "text": "Autogen called as Autogen for a specific purpose."
+      },
+      {
+        "id": 38,
+        "start": 164.51999999999998,
+        "end": 169.79999999999998,
+        "text": "So in this course you'll learn all about what are agents, how to create autonomous agents,"
+      },
+      {
+        "id": 39,
+        "start": 169.79999999999998,
+        "end": 174.76,
+        "text": "how to interact with the Microsoft Autogen framework, setup or configure Autogen to build AI"
+      },
+      {
+        "id": 40,
+        "start": 174.76,
+        "end": 180.44,
+        "text": "systems, design and implement custom agents and chat boards will be talking about tasks like"
+      },
+      {
+        "id": 41,
+        "start": 180.44,
+        "end": 184.76,
+        "text": "coding, reasoning and decision making, build and deploy rail world multi agents workflow that"
+      },
+      {
+        "id": 42,
+        "start": 184.84,
+        "end": 187.88,
+        "text": "automates complex end to end task right."
+      },
+      {
+        "id": 43,
+        "start": 187.88,
+        "end": 192.84,
+        "text": "So here we are only not focusing on building, we also focusing on doing the deployment right."
+      },
+      {
+        "id": 44,
+        "start": 192.84,
+        "end": 199.16,
+        "text": "So overall this course will be having somewhere on 32.5 hours of course and as we go ahead there"
+      },
+      {
+        "id": 45,
+        "start": 199.16,
+        "end": 202.2,
+        "text": "are some more projects that needs to be included."
+      },
+      {
+        "id": 46,
+        "start": 202.2,
+        "end": 206.84,
+        "text": "So first of all we go ahead with Python, Python is the prerequisites that you definitely require"
+      },
+      {
+        "id": 47,
+        "start": 206.84,
+        "end": 212.2,
+        "text": "then you have Python take then we start with entire Autogen and if you keep on expanding"
+      },
+      {
+        "id": 48,
+        "start": 212.51999999999998,
+        "end": 217.39999999999998,
+        "text": "their projects, their use cases, their good things, their techniques like how to"
+      },
+      {
+        "id": 49,
+        "start": 217.39999999999998,
+        "end": 222.44,
+        "text": "probably add human in the human in the loop, feedback, how to probably go ahead and create a single"
+      },
+      {
+        "id": 50,
+        "start": 222.44,
+        "end": 227.23999999999998,
+        "text": "agent, how to go ahead and create a multi agents, how to make agent communicate with the other agent,"
+      },
+      {
+        "id": 51,
+        "start": 227.23999999999998,
+        "end": 233.39999999999998,
+        "text": "you know how to make sure to do this collaboration of multi agent in Autogen all this specific thing is done."
+      },
+      {
+        "id": 52,
+        "start": 233.39999999999998,
+        "end": 239.39999999999998,
+        "text": "Not only that we also talk about performance metrics we talk about building and conferring"
+      },
+      {
+        "id": 53,
+        "start": 239.4,
+        "end": 244.04,
+        "text": "configuring the Autogen agent itself, we have also shown you how to go ahead and use the"
+      },
+      {
+        "id": 54,
+        "start": 244.04,
+        "end": 250.52,
+        "text": "Autogen Studio. So they are a whole they are whole set of topics that has been discussed with"
+      },
+      {
+        "id": 55,
+        "start": 250.52,
+        "end": 253.72,
+        "text": "respect to this and super super excited to launch this particular course."
+      },
+      {
+        "id": 56,
+        "start": 254.28,
+        "end": 260.68,
+        "text": "Now there is one more announcement that whoever is from my Christianite.in batch in the life class"
+      },
+      {
+        "id": 57,
+        "start": 260.68,
+        "end": 265.72,
+        "text": "as I hope you have taken this agent take AI right. So if you are from this specific batch or agent"
+      },
+      {
+        "id": 58,
+        "start": 266.04,
+        "end": 269.8,
+        "text": "one point oh batch don't worry you don't need to probably take this particular course because"
+      },
+      {
+        "id": 59,
+        "start": 269.8,
+        "end": 275.8,
+        "text": "this course will be provided completely for free or every one out there you know and this is the"
+      },
+      {
+        "id": 60,
+        "start": 275.8,
+        "end": 281.56,
+        "text": "pattern that we follow whoever is the part of our life batches we usually provide them free courses"
+      },
+      {
+        "id": 61,
+        "start": 281.56,
+        "end": 287.40000000000003,
+        "text": "from the UDP so that they get the life access. Along with this I would suggest go ahead and try it"
+      },
+      {
+        "id": 62,
+        "start": 287.40000000000003,
+        "end": 293.32000000000005,
+        "text": "out each and everything over here right. The prerequisite for this is that you need to have some"
+      },
+      {
+        "id": 63,
+        "start": 293.32,
+        "end": 298.04,
+        "text": "amount of Python programming language knowledge even though if you don't have I have already provided"
+      },
+      {
+        "id": 64,
+        "start": 298.04,
+        "end": 301.88,
+        "text": "you should know how to write modular coding you should have some understanding of LLM model"
+      },
+      {
+        "id": 65,
+        "start": 301.88,
+        "end": 307.24,
+        "text": "generated way I models and all or less than all the things you know we have explained things in a"
+      },
+      {
+        "id": 66,
+        "start": 307.24,
+        "end": 312.2,
+        "text": "much more better way each and every topic that you will be specifically seeing over here will be"
+      },
+      {
+        "id": 67,
+        "start": 312.2,
+        "end": 319.4,
+        "text": "grips and detail the kind of materials resources that we have specifically used and everything is"
+      },
+      {
+        "id": 68,
+        "start": 319.47999999999996,
+        "end": 325.32,
+        "text": "available for lifetime I had just a price of 39.9 this offer just stays for two days so go ahead"
+      },
+      {
+        "id": 69,
+        "start": 325.32,
+        "end": 330.52,
+        "text": "and utilize this opportunity and yes this was it for my side I hope you like this particular video"
+      },
+      {
+        "id": 70,
+        "start": 330.52,
+        "end": 335.32,
+        "text": "I'll see you all in the next video thank you have a great day bye bye take care."
+      }
+    ],
+    "language": "en",
+    "latency_seconds": 38.89431023597717
+  },
+  "cleaned": {
+    "text": "Hello all my name is Krishnai and welcome to my Udush channel. So guys I am super excited to announce our new Udemy course that is nothing but building AI agents and agentic AI systems with the help of Microsoft AutoJane. Now if you don't know Microsoft AutoJane is also one of the most popular framework that will be specifically used to develop agentic AI applications. Now in the world of error wherein everybody is focusing on building AI agent and agentic AI system it is important that we have knowledge with respect to multiple frameworks and that is the reason me and my entire team are working really really hard to come up with some amazing courses in an affordable way wherein we cover all this specific frameworks in much more in depth. I have already uploaded one course with respect to land graph. Now we are going to cover up with Microsoft AutoJane and the feedback from all this specific courses has been quite amazing and people are really demanding for more and more different kind of use cases and different kind of implementation where we can develop agentic AI system such that we take it into the production level. So anybody who is specifically interested into getting into genitive AI agentic AI then this is the course definitely for you. In this video I will be talking more about this particular course is what all things you can you will be learning what are the prerequisites that you actually require in order to learn this and many more things. So first of all here in this particular course this has been collaborated with Mike Agarwal. I hope everybody knows about Mike Agarwal. He is the part of my team where we are focusing on understanding what all things people definitely require to get into this specific industry. So here to go ahead with right now this particular course, fees is only 399 rupees and understand if you just need to use a coupon which is called as agentic 01. As I said the course price is very, very minimal less than a star buck coffee and this entire course will be available for lifetime. You also have 30 days of refund policy so let's say you buy this particular course, try out the videos and if you don't like it within 30 days you can also get the refund. What is the main aim in this particular course is to build powerful AI agents, automate tasks and create advanced agentic AI system. Since Microsoft Autogen is from Microsoft itself so definitely you can understand what will be the importance of this particular framework right because right now there are some less number of companies which are rarely really competitive in this market with respect to developing LLA models, frameworks and many more things. Microsoft have definitely come up with this something. Autogen called as Autogen for a specific purpose. So in this course you'll learn all about what are agents, how to create autonomous agents, how to interact with the Microsoft Autogen framework, setup or configure Autogen to build AI systems, design and implement custom agents and chat boards will be talking about tasks like coding, reasoning and decision making, build and deploy rail world multi agents workflow that automates complex end to end task right. So here we are only not focusing on building, we also focusing on doing the deployment right. So overall this course will be having somewhere on 32.5 hours of course and as we go ahead there are some more projects that needs to be included. So first of all we go ahead with Python, Python is the prerequisites that you definitely require then you have Python take then we start with entire Autogen and if you keep on expanding their projects, their use cases, their good things, their techniques like how to probably add human in the human in the loop, feedback, how to probably go ahead and create a single agent, how to go ahead and create a multi agents, how to make agent communicate with the other agent, you know how to make sure to do this collaboration of multi agent in Autogen all this specific thing is done. Not only that we also talk about performance metrics we talk about building and conferring configuring the Autogen agent itself, we have also shown you how to go ahead and use the Autogen Studio. So they are a whole they are whole set of topics that has been discussed with respect to this and super super excited to launch this particular course. Now there is one more announcement that whoever is from my Christianite.in batch in the life class as I hope you have taken this agent take AI right. So if you are from this specific batch or agent one point oh batch don't worry you don't need to probably take this particular course because this course will be provided completely for free or every one out there you know and this is the pattern that we follow whoever is the part of our life batches we usually provide them free courses from the UDP so that they get the life access. Along with this I would suggest go ahead and try it out each and everything over here right. The prerequisite for this is that you need to have some amount of Python programming language knowledge even though if you don't have I have already provided you should know how to write modular coding you should have some understanding of LLM model generated way I models and all or less than all the things you know we have explained things in a much more better way each and every topic that you will be specifically seeing over here will be grips and detail the kind of materials resources that we have specifically used and everything is available for lifetime I had just a price of 39.9 this offer just stays for two days so go ahead and utilize this opportunity and yes this was it for my side I hope you like this particular video I'll see you all in the next video thank you have a great day bye bye take care.",
+    "segments": [
+      {
+        "id": 0,
+        "start": 0.0,
+        "end": 4.32,
+        "text": "Hello all my name is Krishnai and welcome to my Udush channel."
+      },
+      {
+        "id": 1,
+        "start": 4.32,
+        "end": 10.24,
+        "text": "So guys I am super excited to announce our new Udemy course that is nothing but building AI"
+      },
+      {
+        "id": 2,
+        "start": 10.24,
+        "end": 15.6,
+        "text": "agents and agentic AI systems with the help of Microsoft AutoJane."
+      },
+      {
+        "id": 3,
+        "start": 15.6,
+        "end": 20.64,
+        "text": "Now if you don't know Microsoft AutoJane is also one of the most popular framework that"
+      },
+      {
+        "id": 4,
+        "start": 20.64,
+        "end": 25.080000000000002,
+        "text": "will be specifically used to develop agentic AI applications."
+      },
+      {
+        "id": 5,
+        "start": 25.08,
+        "end": 29.64,
+        "text": "Now in the world of error wherein everybody is focusing on building AI agent and agentic"
+      },
+      {
+        "id": 6,
+        "start": 29.64,
+        "end": 34.44,
+        "text": "AI system it is important that we have knowledge with respect to multiple frameworks and"
+      },
+      {
+        "id": 7,
+        "start": 34.44,
+        "end": 39.64,
+        "text": "that is the reason me and my entire team are working really really hard to come up with some"
+      },
+      {
+        "id": 8,
+        "start": 39.64,
+        "end": 45.16,
+        "text": "amazing courses in an affordable way wherein we cover all this specific frameworks in much more"
+      },
+      {
+        "id": 9,
+        "start": 45.16,
+        "end": 46.16,
+        "text": "in depth."
+      },
+      {
+        "id": 10,
+        "start": 46.16,
+        "end": 49.4,
+        "text": "I have already uploaded one course with respect to land graph."
+      },
+      {
+        "id": 11,
+        "start": 49.4,
+        "end": 55.4,
+        "text": "Now we are going to cover up with Microsoft AutoJane and the feedback from all this specific"
+      },
+      {
+        "id": 12,
+        "start": 55.4,
+        "end": 60.6,
+        "text": "courses has been quite amazing and people are really demanding for more and more different"
+      },
+      {
+        "id": 13,
+        "start": 60.6,
+        "end": 66.44,
+        "text": "kind of use cases and different kind of implementation where we can develop agentic AI"
+      },
+      {
+        "id": 14,
+        "start": 66.44,
+        "end": 69.56,
+        "text": "system such that we take it into the production level."
+      },
+      {
+        "id": 15,
+        "start": 69.56,
+        "end": 74.03999999999999,
+        "text": "So anybody who is specifically interested into getting into genitive AI agentic AI then"
+      },
+      {
+        "id": 16,
+        "start": 74.03999999999999,
+        "end": 76.75999999999999,
+        "text": "this is the course definitely for you."
+      },
+      {
+        "id": 17,
+        "start": 76.76,
+        "end": 80.12,
+        "text": "In this video I will be talking more about this particular course is what all things you can"
+      },
+      {
+        "id": 18,
+        "start": 80.12,
+        "end": 84.2,
+        "text": "you will be learning what are the prerequisites that you actually require in order to learn"
+      },
+      {
+        "id": 19,
+        "start": 84.2,
+        "end": 86.2,
+        "text": "this and many more things."
+      },
+      {
+        "id": 20,
+        "start": 86.2,
+        "end": 90.92,
+        "text": "So first of all here in this particular course this has been collaborated with Mike Agarwal."
+      },
+      {
+        "id": 21,
+        "start": 90.92,
+        "end": 93.80000000000001,
+        "text": "I hope everybody knows about Mike Agarwal."
+      },
+      {
+        "id": 22,
+        "start": 93.80000000000001,
+        "end": 98.84,
+        "text": "He is the part of my team where we are focusing on understanding what all things people"
+      },
+      {
+        "id": 23,
+        "start": 98.84,
+        "end": 102.92,
+        "text": "definitely require to get into this specific industry."
+      },
+      {
+        "id": 24,
+        "start": 102.92,
+        "end": 109.8,
+        "text": "So here to go ahead with right now this particular course, fees is only 399 rupees and understand"
+      },
+      {
+        "id": 25,
+        "start": 109.8,
+        "end": 113.96000000000001,
+        "text": "if you just need to use a coupon which is called as agentic 01."
+      },
+      {
+        "id": 26,
+        "start": 113.96000000000001,
+        "end": 121.0,
+        "text": "As I said the course price is very, very minimal less than a star buck coffee and this entire"
+      },
+      {
+        "id": 27,
+        "start": 121.0,
+        "end": 123.76,
+        "text": "course will be available for lifetime."
+      },
+      {
+        "id": 28,
+        "start": 123.76,
+        "end": 127.72,
+        "text": "You also have 30 days of refund policy so let's say you buy this particular course,"
+      },
+      {
+        "id": 29,
+        "start": 127.72,
+        "end": 132.8,
+        "text": "try out the videos and if you don't like it within 30 days you can also get the refund."
+      },
+      {
+        "id": 30,
+        "start": 132.8,
+        "end": 136.56,
+        "text": "What is the main aim in this particular course is to build powerful AI agents,"
+      },
+      {
+        "id": 31,
+        "start": 136.56,
+        "end": 140.16000000000003,
+        "text": "automate tasks and create advanced agentic AI system."
+      },
+      {
+        "id": 32,
+        "start": 140.16000000000003,
+        "end": 146.24,
+        "text": "Since Microsoft Autogen is from Microsoft itself so definitely you can understand what will"
+      },
+      {
+        "id": 33,
+        "start": 146.24,
+        "end": 151.36,
+        "text": "be the importance of this particular framework right because right now there are some less"
+      },
+      {
+        "id": 34,
+        "start": 151.36,
+        "end": 155.52,
+        "text": "number of companies which are rarely really competitive in this market with respect to developing"
+      },
+      {
+        "id": 35,
+        "start": 155.52,
+        "end": 158.60000000000002,
+        "text": "LLA models, frameworks and many more things."
+      },
+      {
+        "id": 36,
+        "start": 158.68,
+        "end": 160.92,
+        "text": "Microsoft have definitely come up with this something."
+      },
+      {
+        "id": 37,
+        "start": 160.92,
+        "end": 164.51999999999998,
+        "text": "Autogen called as Autogen for a specific purpose."
+      },
+      {
+        "id": 38,
+        "start": 164.51999999999998,
+        "end": 169.79999999999998,
+        "text": "So in this course you'll learn all about what are agents, how to create autonomous agents,"
+      },
+      {
+        "id": 39,
+        "start": 169.79999999999998,
+        "end": 174.76,
+        "text": "how to interact with the Microsoft Autogen framework, setup or configure Autogen to build AI"
+      },
+      {
+        "id": 40,
+        "start": 174.76,
+        "end": 180.44,
+        "text": "systems, design and implement custom agents and chat boards will be talking about tasks like"
+      },
+      {
+        "id": 41,
+        "start": 180.44,
+        "end": 184.76,
+        "text": "coding, reasoning and decision making, build and deploy rail world multi agents workflow that"
+      },
+      {
+        "id": 42,
+        "start": 184.84,
+        "end": 187.88,
+        "text": "automates complex end to end task right."
+      },
+      {
+        "id": 43,
+        "start": 187.88,
+        "end": 192.84,
+        "text": "So here we are only not focusing on building, we also focusing on doing the deployment right."
+      },
+      {
+        "id": 44,
+        "start": 192.84,
+        "end": 199.16,
+        "text": "So overall this course will be having somewhere on 32.5 hours of course and as we go ahead there"
+      },
+      {
+        "id": 45,
+        "start": 199.16,
+        "end": 202.2,
+        "text": "are some more projects that needs to be included."
+      },
+      {
+        "id": 46,
+        "start": 202.2,
+        "end": 206.84,
+        "text": "So first of all we go ahead with Python, Python is the prerequisites that you definitely require"
+      },
+      {
+        "id": 47,
+        "start": 206.84,
+        "end": 212.2,
+        "text": "then you have Python take then we start with entire Autogen and if you keep on expanding"
+      },
+      {
+        "id": 48,
+        "start": 212.51999999999998,
+        "end": 217.39999999999998,
+        "text": "their projects, their use cases, their good things, their techniques like how to"
+      },
+      {
+        "id": 49,
+        "start": 217.39999999999998,
+        "end": 222.44,
+        "text": "probably add human in the human in the loop, feedback, how to probably go ahead and create a single"
+      },
+      {
+        "id": 50,
+        "start": 222.44,
+        "end": 227.23999999999998,
+        "text": "agent, how to go ahead and create a multi agents, how to make agent communicate with the other agent,"
+      },
+      {
+        "id": 51,
+        "start": 227.23999999999998,
+        "end": 233.39999999999998,
+        "text": "you know how to make sure to do this collaboration of multi agent in Autogen all this specific thing is done."
+      },
+      {
+        "id": 52,
+        "start": 233.39999999999998,
+        "end": 239.39999999999998,
+        "text": "Not only that we also talk about performance metrics we talk about building and conferring"
+      },
+      {
+        "id": 53,
+        "start": 239.4,
+        "end": 244.04,
+        "text": "configuring the Autogen agent itself, we have also shown you how to go ahead and use the"
+      },
+      {
+        "id": 54,
+        "start": 244.04,
+        "end": 250.52,
+        "text": "Autogen Studio. So they are a whole they are whole set of topics that has been discussed with"
+      },
+      {
+        "id": 55,
+        "start": 250.52,
+        "end": 253.72,
+        "text": "respect to this and super super excited to launch this particular course."
+      },
+      {
+        "id": 56,
+        "start": 254.28,
+        "end": 260.68,
+        "text": "Now there is one more announcement that whoever is from my Christianite.in batch in the life class"
+      },
+      {
+        "id": 57,
+        "start": 260.68,
+        "end": 265.72,
+        "text": "as I hope you have taken this agent take AI right. So if you are from this specific batch or agent"
+      },
+      {
+        "id": 58,
+        "start": 266.04,
+        "end": 269.8,
+        "text": "one point oh batch don't worry you don't need to probably take this particular course because"
+      },
+      {
+        "id": 59,
+        "start": 269.8,
+        "end": 275.8,
+        "text": "this course will be provided completely for free or every one out there you know and this is the"
+      },
+      {
+        "id": 60,
+        "start": 275.8,
+        "end": 281.56,
+        "text": "pattern that we follow whoever is the part of our life batches we usually provide them free courses"
+      },
+      {
+        "id": 61,
+        "start": 281.56,
+        "end": 287.40000000000003,
+        "text": "from the UDP so that they get the life access. Along with this I would suggest go ahead and try it"
+      },
+      {
+        "id": 62,
+        "start": 287.40000000000003,
+        "end": 293.32000000000005,
+        "text": "out each and everything over here right. The prerequisite for this is that you need to have some"
+      },
+      {
+        "id": 63,
+        "start": 293.32,
+        "end": 298.04,
+        "text": "amount of Python programming language knowledge even though if you don't have I have already provided"
+      },
+      {
+        "id": 64,
+        "start": 298.04,
+        "end": 301.88,
+        "text": "you should know how to write modular coding you should have some understanding of LLM model"
+      },
+      {
+        "id": 65,
+        "start": 301.88,
+        "end": 307.24,
+        "text": "generated way I models and all or less than all the things you know we have explained things in a"
+      },
+      {
+        "id": 66,
+        "start": 307.24,
+        "end": 312.2,
+        "text": "much more better way each and every topic that you will be specifically seeing over here will be"
+      },
+      {
+        "id": 67,
+        "start": 312.2,
+        "end": 319.4,
+        "text": "grips and detail the kind of materials resources that we have specifically used and everything is"
+      },
+      {
+        "id": 68,
+        "start": 319.47999999999996,
+        "end": 325.32,
+        "text": "available for lifetime I had just a price of 39.9 this offer just stays for two days so go ahead"
+      },
+      {
+        "id": 69,
+        "start": 325.32,
+        "end": 330.52,
+        "text": "and utilize this opportunity and yes this was it for my side I hope you like this particular video"
+      },
+      {
+        "id": 70,
+        "start": 330.52,
+        "end": 335.32,
+        "text": "I'll see you all in the next video thank you have a great day bye bye take care."
+      }
+    ]
+  },
+  "chunks": [
+    {
+      "chunk_id": "test.mp4_chunk0",
+      "text": "Hello all my name is Krishnai and welcome to my Udush channel. So guys I am super excited to announce our new Udemy course that is nothing but building AI agents and agentic AI systems with the help of Microsoft AutoJane. Now if you don't know Microsoft AutoJane is also one of the most popular framework that will be specifically used to develop agentic AI applications. Now in the world of error wherein everybody is focusing on building AI agent and agentic AI system it is important that we have knowledge with respect to multiple frameworks and that is the reason me and my entire team are working really really hard to come up with some amazing courses in an affordable way wherein we cover all this specific frameworks in much more in depth. I have already uploaded one course with respect to land graph. Now we are going to cover up with Microsoft AutoJane and the feedback from all this specific courses has been quite amazing and people are really demanding for more and more different",
+      "timestamp_start": "00:00:00",
+      "timestamp_end": "00:01:01",
+      "source_file": "test.mp4"
+    },
+    {
+      "chunk_id": "test.mp4_chunk1",
+      "text": "kind of use cases and different kind of implementation where we can develop agentic AI system such that we take it into the production level. So anybody who is specifically interested into getting into genitive AI agentic AI then this is the course definitely for you. In this video I will be talking more about this particular course is what all things you can you will be learning what are the prerequisites that you actually require in order to learn this and many more things. So first of all here in this particular course this has been collaborated with Mike Agarwal. I hope everybody knows about Mike Agarwal. He is the part of my team where we are focusing on understanding what all things people definitely require to get into this specific industry. So here to go ahead with right now this particular course, fees is only 399 rupees and understand if you just need to use a coupon which is called as agentic 01. As I said the course price is very, very minimal less than a star buck coffee and this entire",
+      "timestamp_start": "00:01:01",
+      "timestamp_end": "00:02:01",
+      "source_file": "test.mp4"
+    },
+    {
+      "chunk_id": "test.mp4_chunk2",
+      "text": "course will be available for lifetime. You also have 30 days of refund policy so let's say you buy this particular course, try out the videos and if you don't like it within 30 days you can also get the refund. What is the main aim in this particular course is to build powerful AI agents, automate tasks and create advanced agentic AI system. Since Microsoft Autogen is from Microsoft itself so definitely you can understand what will be the importance of this particular framework right because right now there are some less number of companies which are rarely really competitive in this market with respect to developing LLA models, frameworks and many more things. Microsoft have definitely come up with this something. Autogen called as Autogen for a specific purpose. So in this course you'll learn all about what are agents, how to create autonomous agents, how to interact with the Microsoft Autogen framework, setup or configure Autogen to build AI systems, design and implement custom agents and chat boards will be talking about tasks like coding, reasoning and decision making, build and deploy rail world multi agents workflow that",
+      "timestamp_start": "00:02:01",
+      "timestamp_end": "00:03:05",
+      "source_file": "test.mp4"
+    },
+    {
+      "chunk_id": "test.mp4_chunk3",
+      "text": "automates complex end to end task right. So here we are only not focusing on building, we also focusing on doing the deployment right. So overall this course will be having somewhere on 32.5 hours of course and as we go ahead there are some more projects that needs to be included. So first of all we go ahead with Python, Python is the prerequisites that you definitely require then you have Python take then we start with entire Autogen and if you keep on expanding their projects, their use cases, their good things, their techniques like how to probably add human in the human in the loop, feedback, how to probably go ahead and create a single agent, how to go ahead and create a multi agents, how to make agent communicate with the other agent, you know how to make sure to do this collaboration of multi agent in Autogen all this specific thing is done. Not only that we also talk about performance metrics we talk about building and conferring configuring the Autogen agent itself, we have also shown you how to go ahead and use the Autogen Studio. So they are a whole they are whole set of topics that has been discussed with",
+      "timestamp_start": "00:03:05",
+      "timestamp_end": "00:04:11",
+      "source_file": "test.mp4"
+    },
+    {
+      "chunk_id": "test.mp4_chunk4",
+      "text": "respect to this and super super excited to launch this particular course. Now there is one more announcement that whoever is from my Christianite.in batch in the life class as I hope you have taken this agent take AI right. So if you are from this specific batch or agent one point oh batch don't worry you don't need to probably take this particular course because this course will be provided completely for free or every one out there you know and this is the pattern that we follow whoever is the part of our life batches we usually provide them free courses from the UDP so that they get the life access. Along with this I would suggest go ahead and try it out each and everything over here right. The prerequisite for this is that you need to have some amount of Python programming language knowledge even though if you don't have I have already provided you should know how to write modular coding you should have some understanding of LLM model generated way I models and all or less than all the things you know we have explained things in a much more better way each and every topic that you will be specifically seeing over here will be",
+      "timestamp_start": "00:04:11",
+      "timestamp_end": "00:05:12",
+      "source_file": "test.mp4"
+    },
+    {
+      "chunk_id": "test.mp4_chunk5",
+      "text": "grips and detail the kind of materials resources that we have specifically used and everything is available for lifetime I had just a price of 39.9 this offer just stays for two days so go ahead and utilize this opportunity and yes this was it for my side I hope you like this particular video I'll see you all in the next video thank you have a great day bye bye take care.",
+      "timestamp_start": "00:05:12",
+      "timestamp_end": "00:05:35",
+      "source_file": "test.mp4"
+    }
+  ],
+  "latency_seconds": 38.89431023597717
+}

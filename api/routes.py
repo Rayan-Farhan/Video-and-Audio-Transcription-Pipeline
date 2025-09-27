@@ -21,14 +21,17 @@ async def transcribe_endpoint(file: UploadFile = File(...)):
 
     saved_path, file_id = save_upload_file(file, settings.STORAGE_DIR)
 
-    raw = transcription_model.transcribe(saved_path)
-    cleaned = processor.clean_transcript(raw)
+    # *transcribe* returns a dict that includes 'text' and 'segments' and 'latency_seconds'
+    raw_result = transcription_model.transcribe(saved_path)
+
+    cleaned = processor.clean_transcript(raw_result)
     chunks = processor.chunk_transcript(cleaned, source_file=filename)
 
-    storage.save_transcript(file_id=file_id, filename=filename,
-                            raw=raw, cleaned=cleaned, chunks=chunks)
+    latency = raw_result.get("latency_seconds", None)
 
-    return TranscribeResponse(file_id=file_id, message="Transcription completed")
+    storage.save_transcript(file_id=file_id, filename=filename, raw=raw_result, cleaned=cleaned, chunks=chunks, latency_seconds=latency)
+
+    return TranscribeResponse(file_id=file_id, message="Transcription completed", latency_seconds=latency)
 
 @router.get('/video/{file_id}/transcript')
 async def get_transcript(file_id: str):
